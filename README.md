@@ -1,2 +1,2 @@
 # webchat
-webchat with shmop (Shared Memory - PHP)
+somple webchat with shmop (Shared Memory - PHP) and AJAX
