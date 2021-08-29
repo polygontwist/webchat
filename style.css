@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color:#808080;
+	color:#fff;
+	font-family: Verdana, sans-serif;
+	font-size: 22pt;
+}
+
+input,textarea{
+	font-size: 18pt;
+}
+
+#outputtext{
+	font-size: 18pt;
+	width:90%;
+	min-height:100px;
+	background-color:#ffffff;
+	color:#000;
+	position:absolute;
+	left:10px;
+	top:50px;
+	bottom:10px;
+	overflow:auto;
+	padding-bottom:10px;
+}
+p.me{
+	text-align:right;
+}
+
+.send{
+	background-color:#d0d0d0;
+}
+.inputp{
+	padding-top:5px;
+}
+.inputp span{
+	width: 80px;
+	display: inline-block;
+	font-size:16pt;
+	padding-left:10px;
+}
+.inputp input{width:calc(90% - 80px);}
+
